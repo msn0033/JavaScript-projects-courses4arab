@@ -358,6 +358,7 @@ start
   border-radius:15px;
   padding: 5px 10px;
   position: relative;
+  cursor: pointer;
   
 #hiddenul{
   
@@ -375,6 +376,9 @@ start
       line-height: 40px;
       margin-top: 6px;
   
+  }
+  #hiddenul li{
+    cursor: pointer;
   }
   #hiddenul li:hover{
     border-bottom: 2px solid red;
